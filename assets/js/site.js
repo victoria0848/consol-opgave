@@ -1,10 +1,10 @@
 // write cool JS here!!
 console. group('Console opgave');
 var name = 'Jeg er en almindelig konsol log';
-console.log('Jeg er en almindelig konsol log');
-console.info('Jeg er en info konsol log');
-console.warn('Jeg er en warning konsol log');
-console.error('Jeg er en error konsol log');
+console.log('log');
+console.info('Info');
+console.warn('Warn');
+console.error('Error');
 const myInfo = 'en variabel';
 const myBooks = ["The Catcher in the Rye",
     "To Kill a Mockingbird",
@@ -17,6 +17,7 @@ const myBooks = ["The Catcher in the Rye",
     "The Da Vinci Code",
     "The Hunger Games"]
 console.table(myBooks);
+
+console.groupEnd();
 console.time('default');
 console.timeEnd('default');
-console.groupEnd();
